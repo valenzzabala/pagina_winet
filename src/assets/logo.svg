@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" rx="8" fill="#111827"/>
+  <path d="M40 20L50 40H30L40 20Z" fill="#F59E0B"/>
+  <path d="M60 20L70 40H50L60 20Z" fill="#F59E0B" fill-opacity="0.7"/>
+  <path d="M80 20L90 40H70L80 20Z" fill="#F59E0B" fill-opacity="0.5"/>
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">WiNet</text>
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B">SOLUCIONES</text>
+</svg>
