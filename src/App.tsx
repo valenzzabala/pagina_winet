@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { FiMenu, FiX, FiArrowRight, FiCamera, FiVideo, FiShield, FiZap, FiCheckCircle, FiPhone, FiMail, FiMapPin, FiStar, FiUsers, FiShield as FiShield2, FiAward } from 'react-icons/fi';
 import { FaWhatsapp, FaQuoteLeft } from 'react-icons/fa';
+import logoImage from './assets/logo.png.png';
+import heroImage from './assets/foto_principal.jpg';
 
 // Animation variants
 // Animation variants with proper typing
@@ -33,7 +35,7 @@ const staggerContainer = {
 const Logo = () => (
   <div className="flex items-center space-x-3">
     <img 
-      src="/src/assets/logo.png.png" 
+      src={logoImage} 
       alt="WiNet Soluciones Logo" 
       className="h-14 w-auto"
       onError={(e) => {
@@ -193,7 +195,7 @@ const App = () => {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-br from-black/90 via-black/70 to-black/90 z-10"></div>
             <img 
-              src="/src/assets/foto_principal.jpg" 
+              src={heroImage} 
               alt="Seguridad WiNet" 
               className="w-full h-full object-cover object-center"
             />
