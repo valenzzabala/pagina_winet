@@ -746,6 +746,29 @@ const App = () => {
                 </a>
               </div>
             </div>
+
+            <div className="max-w-4xl mx-auto mt-12">
+              <div className="flex items-center justify-between gap-4 mb-4">
+                <h3 className="text-2xl font-bold">Nuestra ubicación</h3>
+                <a
+                  href="https://www.google.com/maps?q=Olga%20Orozco%202855%2C%20Local%205%2C%20Poeta%20Lugones%2C%20C%C3%B3rdoba"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-400 hover:text-yellow-300 transition-colors text-sm font-medium"
+                >
+                  Ver en Google Maps
+                </a>
+              </div>
+              <div className="overflow-hidden rounded-xl border border-white/10 bg-black/20 shadow-lg">
+                <iframe
+                  title="Ubicación WiNet Soluciones"
+                  src="https://www.google.com/maps?q=Olga%20Orozco%202855%2C%20Local%205%2C%20Poeta%20Lugones%2C%20C%C3%B3rdoba&output=embed"
+                  className="w-full h-80 md:h-96"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
