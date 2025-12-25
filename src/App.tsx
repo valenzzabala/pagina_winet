@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { FiMenu, FiX, FiArrowRight, FiCamera, FiVideo, FiShield, FiZap, FiCheckCircle, FiPhone, FiMail, FiMapPin, FiStar, FiUsers, FiShield as FiShield2, FiAward } from 'react-icons/fi';
-import { FaWhatsapp, FaQuoteLeft } from 'react-icons/fa';
+import { FaWhatsapp, FaQuoteLeft, FaInstagram } from 'react-icons/fa';
 import logoImage from './assets/logo.png.png';
 import heroImage from './assets/foto_principal.jpg';
 
@@ -711,6 +711,17 @@ const App = () => {
                     <FaWhatsapp className="text-green-400 text-xl mt-1 mr-3" />
                     <a href="https://wa.me/543515204125" className="hover:text-yellow-400 transition-colors">
                       +54 9 351 520-4125
+                    </a>
+                  </div>
+                  <div className="flex items-start">
+                    <FaInstagram className="text-pink-400 text-xl mt-1 mr-3" />
+                    <a
+                      href="https://www.instagram.com/winetsoluciones.cba"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-yellow-400 transition-colors"
+                    >
+                      @winetsoluciones.cba
                     </a>
                   </div>
                   <div className="flex items-start">
